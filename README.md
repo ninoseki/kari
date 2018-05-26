@@ -15,7 +15,7 @@ The API call expects the following parameter:
 Example code:
 
 ```sh
-curl -F "data=1.1.1.1\ngoogle.com\nf6f8179ac71eaabff12b8c024342109b" kari-extractor.herokuapp.com/extract
+curl -F "data=1.1.1.1 google.com f6f8179ac71eaabff12b8c024342109b" kari-extractor.herokuapp.com/extract
 ```
 
 Example response:
@@ -33,7 +33,7 @@ Example response:
   },
   "networks": {
     "domains": [
-      "ngoogle.com"
+      "google.com"
     ],
     "emails": null,
     "ipv4s": [
