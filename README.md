@@ -6,7 +6,7 @@ Indicator extractor API based on [cacador](https://github.com/sroberts/cacador).
 
 In order to send a data you must perform an HTTP POST request to the following URL:
 
-`https://desolate-springs-18074.herokuapp.com/extract`
+`https://kari-extractor.herokuapp.com/extract`
 
 The API call expects the following parameter:
 
@@ -15,7 +15,7 @@ The API call expects the following parameter:
 Example code:
 
 ```sh
-url -F "data=1.1.1.1\ngoogle.com\nf6f8179ac71eaabff12b8c024342109b" desolate-springs-18074.herokuapp.com/extract
+url -F "data=1.1.1.1\ngoogle.com\nf6f8179ac71eaabff12b8c024342109b" kari-extractor.herokuapp.com/extract
 ```
 
 Example response:
