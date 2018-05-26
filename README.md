@@ -15,7 +15,7 @@ The API call expects the following parameter:
 Example code:
 
 ```sh
-url -F "data=1.1.1.1\ngoogle.com\nf6f8179ac71eaabff12b8c024342109b" kari-extractor.herokuapp.com/extract
+curl -F "data=1.1.1.1\ngoogle.com\nf6f8179ac71eaabff12b8c024342109b" kari-extractor.herokuapp.com/extract
 ```
 
 Example response:
