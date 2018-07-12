@@ -25,7 +25,7 @@ func Test_extract(t *testing.T) {
 	r := setupRouter()
 
 	values := url.Values{}
-	values.Add("data", "1.1.1.1 google.com f6f8179ac71eaabff12b8c024342109b")
+	values.Add("data", "1.1.1.1 google.com www.us-cert.org f6f8179ac71eaabff12b8c024342109b")
 
 	w := httptest.NewRecorder()
 	req, _ := http.NewRequest("POST", "/extract", strings.NewReader(values.Encode()))
@@ -39,5 +39,6 @@ func Test_extract(t *testing.T) {
 	assert.Equal(t, nil, err)
 	assert.Equal(t, "1.1.1.1", data.Networks.Ipv4s[0])
 	assert.Equal(t, "google.com", data.Networks.Domains[0])
+	assert.Equal(t, "www.us-cert.org", data.Networks.Domains[1])
 	assert.Equal(t, "f6f8179ac71eaabff12b8c024342109b", data.Hashes.Md5s[0])
 }
