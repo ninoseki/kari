@@ -1,5 +1,7 @@
 # kari
 
+[![Build Status](https://travis-ci.org/ninoseki/kari.svg?branch=master)](https://travis-ci.org/ninoseki/kari)
+
 Indicator extractor API based on [cacador](https://github.com/sroberts/cacador).
 
 ## How to use
