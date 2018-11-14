@@ -1,6 +1,7 @@
 # kari
 
 [![Build Status](https://travis-ci.org/ninoseki/kari.svg?branch=master)](https://travis-ci.org/ninoseki/kari)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3e27e0e02e734b0f9fa29903d88b9555)](https://www.cgoodacy.com/app/ninoseki/kari)
 
 Indicator extractor API based on [cacador](https://github.com/sroberts/cacador).
 
@@ -58,4 +59,20 @@ Example response:
   },
   "time": "2018-05-26 02:48:46.953084088 +0000 UTC m=+45.807881187"
 }
+```
+
+## How to run the app locally
+
+```sh
+$ heroku local web
+[OKAY] Loaded ENV .env File as KEY=VALUE Format
+4:50:27 PM web.1 |  [GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+4:50:27 PM web.1 |   - using env:       export GIN_MODE=release
+4:50:27 PM web.1 |   - using code:      gin.SetMode(gin.ReleaseMode)
+4:50:27 PM web.1 |  [GIN-debug] Loaded HTML Templates (2):
+4:50:27 PM web.1 |      -
+4:50:27 PM web.1 |      - index.html
+4:50:27 PM web.1 |  [GIN-debug] GET    /                         --> main.setupRouter.func1 (3 handlers)
+4:50:27 PM web.1 |  [GIN-debug] POST   /extract                  --> main.setupRouter.func2 (3 handlers)
+4:50:27 PM web.1 |  [GIN-debug] Listening and serving HTTP on :5000
 ```
