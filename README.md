@@ -6,7 +6,7 @@ Indicator extractor API based on [cacador](https://github.com/sroberts/cacador).
 
 ## How to use
 
-In order to send a data you must perform an HTTP POST request to the following URL:
+In order to send data, you must perform an HTTP POST request to the following URL:
 
 `https://kari-extractor.herokuapp.com/extract`
 

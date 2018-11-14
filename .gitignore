@@ -14,3 +14,5 @@
 # ignore vendor packages
 /vendor/*
 !/vendor/vendor.json
+
+.env
