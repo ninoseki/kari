@@ -1,6 +1,7 @@
 # kari
 
 [![Build Status](https://travis-ci.org/ninoseki/kari.svg?branch=master)](https://travis-ci.org/ninoseki/kari)
+[![Coverage Status](https://coveralls.io/repos/github/ninoseki/kari/badge.svg?branch=master)](https://coveralls.io/github/ninoseki/kari?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3e27e0e02e734b0f9fa29903d88b9555)](https://www.cgoodacy.com/app/ninoseki/kari)
 
 Indicator extractor API based on [cacador](https://github.com/sroberts/cacador).
